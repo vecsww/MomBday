@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///Users/admin/RiderProjects/mama-birthday/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мама, с днём рождения!</title>
+  <meta name="description" content="Тёплая праздничная открытка для мамы — 26 сентября 1977 года.">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Мама, с днём рождения!_files/css2" rel="stylesheet">
+  <style>
+    :root{--ink:#fff8f4;--muted:#f4d8d8;--gold:#ffd48d;--rose:#ff9fbe;--wine:#331326;--plum:#170c22;--glass:rgba(255,255,255,.11)}
+    *{box-sizing:border-box} body{margin:0;color:var(--ink);background:var(--plum);font-family:Manrope,system-ui,sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;z-index:-3;background:radial-gradient(circle at 16% 12%,#6f304f 0,transparent 31%),radial-gradient(circle at 84% 18%,#4b2b65 0,transparent 34%),linear-gradient(140deg,#16091e 0%,#351326 48%,#180a28 100%)}
+    body:after{content:"";position:fixed;inset:0;z-index:-2;opacity:.28;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(to bottom,transparent,black 22%,black 76%,transparent)}
+    .shell{width:min(1120px,100%);margin:auto;padding:24px 22px 50px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:20px;animation:rise .8s ease both}.brand{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}.date-pill{border:1px solid rgba(255,212,141,.35);border-radius:999px;padding:10px 15px;font-size:12px;color:#ffe8c5;background:rgba(255,255,255,.05)}
+    .hero{min-height:calc(100vh - 48px);display:grid;place-items:center;text-align:center;padding:58px 0 50px;position:relative}.hero-content{max-width:790px;position:relative}.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#ffdca9;margin-bottom:22px}.eyebrow:before,.eyebrow:after{content:"✦";color:var(--rose);font-size:16px}.hero h1{font-family:"Cormorant Garamond",serif;font-size:clamp(62px,11vw,142px);line-height:.82;letter-spacing:-.045em;margin:0;color:#fff9f6;text-shadow:0 10px 40px rgba(255,123,175,.2)}.hero h1 span{display:block;color:var(--rose);font-style:italic;font-size:.72em;margin-top:14px}.hero-sub{max-width:590px;margin:28px auto 0;color:var(--muted);font-size:clamp(16px,2vw,20px);line-height:1.65}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{border:0;border-radius:999px;padding:14px 21px;font:600 14px Manrope;cursor:pointer;transition:.25s transform,.25s box-shadow,.25s background}.btn-primary{background:linear-gradient(135deg,#ffb0c7,#ffd48d);color:#3b132c;box-shadow:0 12px 30px rgba(255,159,190,.22)}.btn-ghost{color:var(--ink);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18)}.btn:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(255,159,190,.28)}
+    .orb{position:absolute;border-radius:50%;filter:blur(1px);pointer-events:none}.orb.one{width:18px;height:18px;left:4%;top:17%;background:var(--gold);box-shadow:0 0 22px var(--gold);animation:float 5s ease-in-out infinite}.orb.two{width:12px;height:12px;right:8%;top:35%;background:var(--rose);box-shadow:0 0 20px var(--rose);animation:float 4s 1s ease-in-out infinite}.orb.three{width:8px;height:8px;left:13%;bottom:23%;background:#fff;box-shadow:0 0 16px #fff;animation:float 6s 1.5s ease-in-out infinite}
+    .scroll-note{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55)}.scroll-note:after{content:"↓";display:block;color:var(--gold);font-size:18px;margin-top:8px;animation:bob 1.7s ease-in-out infinite}
+    .wish-section{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:stretch;margin-top:28px}.card{border:1px solid rgba(255,255,255,.15);background:linear-gradient(140deg,rgba(255,255,255,.13),rgba(255,255,255,.045));box-shadow:0 24px 70px rgba(0,0,0,.2);border-radius:28px;backdrop-filter:blur(14px)}
+    .letter{padding:42px 42px 36px;display:flex;flex-direction:column;justify-content:center}.kicker{color:var(--gold);font-size:12px;letter-spacing:.2em;text-transform:uppercase}.letter h2{font:600 clamp(38px,5vw,61px)/.95 "Cormorant Garamond",serif;margin:16px 0 20px;letter-spacing:-.025em}.letter p{color:var(--muted);font-size:16px;line-height:1.8;margin:0 0 16px}.signature{margin-top:16px;color:#fff0dd;font:italic 28px "Cormorant Garamond",serif}.divider{height:1px;background:linear-gradient(90deg,transparent,rgba(255,212,141,.55),transparent);margin:24px 0}
+    .live-card{margin-top:28px;padding:30px 28px;text-align:center;position:relative;overflow:hidden;background:linear-gradient(125deg,rgba(255,159,190,.15),rgba(255,212,141,.08))}.live-card:before{content:"";position:absolute;width:220px;height:220px;right:-80px;top:-100px;border-radius:50%;border:1px solid rgba(255,212,141,.3);box-shadow:0 0 0 16px rgba(255,212,141,.04),0 0 0 32px rgba(255,212,141,.025)}.live-kicker{color:var(--gold);font-size:11px;letter-spacing:.19em;text-transform:uppercase}.live-title{font:600 clamp(30px,4vw,47px)/1 "Cormorant Garamond",serif;margin:10px 0 8px}.live-sub{color:var(--muted);font-size:13px;margin:0 0 22px}.counter{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;position:relative}.counter-unit{padding:13px 5px;border-radius:15px;background:rgba(20,8,26,.3);border:1px solid rgba(255,255,255,.11)}.counter-value{display:block;color:#fff5e8;font:700 clamp(15px,3.3vw,30px)/1 "Cormorant Garamond",serif;letter-spacing:-.04em;overflow:hidden}.counter-label{display:block;color:#e9c6c7;font-size:10px;margin-top:5px;text-transform:uppercase;letter-spacing:.08em}.rotating{min-height:26px;margin:21px 0 0;color:#ffdca9;font:italic 21px "Cormorant Garamond",serif;transition:opacity .4s ease}
+    .memory-card{min-height:420px;padding:30px;position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(255,159,190,.17),rgba(255,212,141,.08))}.memory-card:before,.memory-card:after{content:"";position:absolute;border:1px solid rgba(255,212,141,.35);border-radius:50%;transform:rotate(-12deg)}.memory-card:before{width:300px;height:300px;left:-70px;top:-30px}.memory-card:after{width:220px;height:220px;right:-55px;bottom:-60px}.memory-top{display:flex;justify-content:space-between;align-items:center;color:var(--gold);font-size:12px;letter-spacing:.18em;text-transform:uppercase}.memory-symbol{font-size:28px;animation:float 4s ease-in-out infinite}.memory-card h3{position:relative;margin:60px 0 14px;max-width:320px;font:600 clamp(42px,5vw,64px)/.92 "Cormorant Garamond",serif}.memory-card p{position:relative;max-width:310px;color:var(--muted);line-height:1.7;font-size:14px}.love-note{position:absolute;bottom:25px;left:30px;right:30px;padding:16px 20px;border-top:1px solid rgba(255,212,141,.35);border-bottom:1px solid rgba(255,212,141,.35);color:#ffe8c5;font:italic clamp(25px,3vw,35px)/1.05 "Cormorant Garamond",serif}.love-note small{display:block;margin-top:9px;color:rgba(255,232,197,.65);font:500 11px/1.4 Manrope,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+    .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}.fact{padding:22px 18px;text-align:center}.fact strong{display:block;color:var(--gold);font:700 38px "Cormorant Garamond",serif}.fact span{display:block;color:#f3d7d2;font-size:12px;line-height:1.4;margin-top:4px}.footer{text-align:center;color:rgba(255,255,255,.56);font-size:12px;padding-top:58px}.footer b{color:var(--rose);font-weight:600}
+    .hero-flower{position:absolute;width:clamp(80px,14vw,160px);height:auto;opacity:.85;filter:drop-shadow(0 14px 22px rgba(0,0,0,.18));pointer-events:none;animation:flower-drift 7s ease-in-out infinite}.hero-flower.left{left:0;bottom:20%;transform:rotate(-18deg)}.hero-flower.right{right:0;top:13%;transform:rotate(20deg);animation-delay:-3s}.hero-content{z-index:1}.section-heading{text-align:center;margin:74px auto 25px}.section-heading span{color:var(--gold);font-size:11px;letter-spacing:.2em;text-transform:uppercase}.section-heading h2{font:600 clamp(39px,6vw,66px)/.95 "Cormorant Garamond",serif;margin:12px 0}.section-heading p{color:var(--muted);margin:0 auto;max-width:560px;line-height:1.7}.wishes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.wish{padding:30px;min-height:235px;position:relative;overflow:hidden;transition:transform .25s,background .25s}.wish:hover{transform:translateY(-6px);background:rgba(255,255,255,.14)}.wish-mark{color:var(--gold);font:600 44px "Cormorant Garamond",serif}.wish h3{font:600 33px "Cormorant Garamond",serif;margin:18px 0 8px}.wish p{color:var(--muted);font-size:14px;line-height:1.7;margin:0}.finale{text-align:center;margin-top:75px;padding:58px 28px 55px;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 15%,rgba(255,212,141,.14),transparent 43%),linear-gradient(140deg,rgba(255,159,190,.14),rgba(255,255,255,.04))}.finale:before{content:"✦";position:absolute;left:7%;top:15%;color:var(--gold);font-size:30px;animation:float 5s infinite}.finale:after{content:"✦";position:absolute;right:9%;bottom:15%;color:var(--rose);font-size:24px;animation:float 5s -2s infinite}.finale .small{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:11px}.finale h2{font:600 clamp(52px,8vw,86px)/.92 "Cormorant Garamond",serif;margin:17px auto;max-width:680px}.finale p{color:var(--muted);font-size:16px;line-height:1.7;max-width:570px;margin:0 auto 24px}.finale .signature{margin:20px 0 0}.counter-unit{min-width:0}.counter-value{font-size:clamp(15px,2.2vw,27px);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.memory-card{display:flex;flex-direction:column}.memory-card h3{margin-top:45px}.love-note{position:relative;left:auto;right:auto;bottom:auto;margin-top:auto;padding-inline:0}.memory-card p{margin-bottom:30px}
+    #confetti{position:fixed;inset:0;pointer-events:none;z-index:20;overflow:hidden}.confetto{position:absolute;width:8px;height:14px;top:-20px;animation:fall linear forwards}.heart{position:fixed;bottom:-30px;font-size:22px;z-index:19;pointer-events:none;animation:heartUp 3.5s ease-out forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}} @keyframes float{50%{transform:translateY(-16px) scale(1.12)}} @keyframes flower-drift{50%{translate:0 -18px;rotate:7deg}} @keyframes bob{50%{transform:translateY(6px)}} @keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(720deg);opacity:.1}} @keyframes heartUp{to{transform:translate3d(var(--x),-110vh,0) rotate(24deg);opacity:0}}
+    @media (max-width:760px){.shell{padding-inline:16px}.topbar{align-items:flex-start}.date-pill{padding:8px 11px}.hero{min-height:calc(100vh - 40px);padding-top:78px}.hero-flower{opacity:.42}.hero-flower.left{bottom:13%}.wish-section{grid-template-columns:1fr}.letter{padding:32px 24px}.facts{grid-template-columns:1fr}.fact{padding:18px}.counter{grid-template-columns:repeat(2,minmax(0,1fr))}.counter-value{font-size:clamp(20px,6vw,29px)}.wishes{grid-template-columns:1fr}.wish{min-height:auto}.scroll-note{display:none}}
+    @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <div id="confetti" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="topbar"><div class="brand">для самой любимой</div><div class="date-pill">26 · 09 · 1977</div></header>
+    <section class="hero" aria-labelledby="title">
+      <span class="orb one"></span><span class="orb two"></span><span class="orb three"></span>
+      <svg class="hero-flower left" viewBox="0 0 160 180" aria-hidden="true"><path d="M80 92Q66 129 43 166M80 92q22 28 48 62" fill="none" stroke="#cfa879" stroke-width="3" stroke-linecap="round"></path><path d="M65 119q-36-18-42 9 26 10 42-9Zm29 19q23-28 44-11-20 23-44 11Z" fill="#7d8e6e"></path><g fill="#f4a8b9"><ellipse cx="80" cy="46" rx="19" ry="39"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(60 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(120 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(180 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(240 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(300 80 70)"></ellipse></g><circle cx="80" cy="70" r="18" fill="#ffe0a4"></circle><circle cx="80" cy="70" r="8" fill="#b9766f"></circle></svg>
+      <svg class="hero-flower right" viewBox="0 0 160 180" aria-hidden="true"><path d="M80 92Q66 129 43 166M80 92q22 28 48 62" fill="none" stroke="#cfa879" stroke-width="3" stroke-linecap="round"></path><path d="M65 119q-36-18-42 9 26 10 42-9Zm29 19q23-28 44-11-20 23-44 11Z" fill="#7d8e6e"></path><g fill="#e6b6d3"><ellipse cx="80" cy="46" rx="19" ry="39"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(60 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(120 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(180 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(240 80 70)"></ellipse><ellipse cx="80" cy="46" rx="19" ry="39" transform="rotate(300 80 70)"></ellipse></g><circle cx="80" cy="70" r="18" fill="#ffe0a4"></circle><circle cx="80" cy="70" r="8" fill="#b9766f"></circle></svg>
+      <div class="hero-content">
+        <div class="eyebrow">сегодня особенный день</div>
+        <h1 id="title">С днём<br><span>рождения, мама!</span></h1>
+        <p class="hero-sub">Спасибо за твоё тепло, мудрость и любовь, которой хватает на весь мир. Пусть каждый новый день будет таким же светлым, как ты.</p>
+        <div class="actions"><button class="btn btn-primary" id="celebrate">Зажечь праздник ✨</button><a class="btn btn-ghost" href="file:///Users/admin/RiderProjects/mama-birthday/index.html#letter">Открыть письмо ↓</a></div>
+      </div>
+      <div class="scroll-note">маленькая открытка для тебя</div>
+    </section>
+
+    <section class="wish-section" id="letter">
+      <div class="card memory-card" aria-label="Мамины суперсилы">
+        <div class="memory-top"><span>мамины суперсилы</span><span class="memory-symbol">✦</span></div>
+        <h3>Ты — наше<br>самое тёплое место.</h3>
+        <p>Там, где ты, всегда становится спокойнее, добрее и светлее. Спасибо за твои объятия, заботу и большое сердце.</p>
+        <div class="love-note">«Ты заслуживаешь целый мир счастья.»<small>с любовью, Саша</small></div>
+      </div>
+      <article class="card letter">
+        <div class="kicker">личное письмо от Саши</div>
+        <h2>Мама, ты —<br>моё чудо.</h2>
+        <p>В твой день рождения хочется обнять тебя крепче обычного и сказать самые простые, но самые важные слова: я тебя люблю.</p>
+        <p>Желаю тебе здоровья, спокойствия в душе, красивых моментов, путешествий, смеха и исполнения желаний. Пусть рядом всегда будут люди, которые берегут тебя так же сильно, как ты бережёшь нас.</p>
+        <div class="divider"></div><div class="signature">С любовью, твой сын Саша ♥</div>
+      </article>
+    </section>
+
+    <section class="card live-card">
+      <div class="live-kicker">каждая секунда твоей жизни — подарок</div>
+      <div class="live-title">Ты прекрасна уже <span id="age-years">49</span> лет</div>
+      <p class="live-sub">С 26 сентября 1977 года. Каждая цифра — ещё одна частичка твоей удивительной истории.</p>
+      <div class="counter">
+        <div class="counter-unit"><span class="counter-value" id="age-months">588</span><span class="counter-label">месяцев</span></div>
+        <div class="counter-unit"><span class="counter-value" id="age-days">17897</span><span class="counter-label">дней</span></div>
+        <div class="counter-unit"><span class="counter-value" id="age-hours">429538</span><span class="counter-label">часов</span></div>
+        <div class="counter-unit"><span class="counter-value" id="age-minutes">25772302</span><span class="counter-label">минут</span></div>
+        <div class="counter-unit"><span class="counter-value" id="age-seconds">1546338174</span><span class="counter-label">секунд</span></div>
+        <div class="counter-unit"><span class="counter-value">∞</span><span class="counter-label">любви</span></div>
+      </div>
+      <div class="rotating" id="rotating-message" style="opacity: 1;">Спасибо, что ты у меня есть.</div>
+    </section>
+
+    <div class="section-heading"><span>моё пожелание тебе</span><h2>Пусть впереди будет ещё больше…</h2><p>Всего, что заставляет тебя улыбаться. Ты заслуживаешь самого доброго и красивого.</p></div>
+    <section class="wishes" aria-label="Пожелания для мамы">
+      <article class="card wish"><div class="wish-mark">01 ✦</div><h3>Тихого счастья</h3><p>Утреннего солнца, спокойных вечеров и дней, в которых легко дышится.</p></article>
+      <article class="card wish"><div class="wish-mark">02 ✦</div><h3>Больших открытий</h3><p>Новых мест, любимых занятий и приятных сюрпризов без особого повода.</p></article>
+      <article class="card wish"><div class="wish-mark">03 ✦</div><h3>Любви каждый день</h3><p>Чтобы ты всегда чувствовала, как сильно тебя любят и как много ты значишь.</p></article>
+    </section>
+
+    <section class="facts" aria-label="Памятные числа">
+      <div class="card fact"><strong id="fact-years">49</strong><span>лет света, силы<br>и красоты</span></div>
+      <div class="card fact"><strong>26.09</strong><span>день, когда<br>всё началось</span></div>
+      <div class="card fact"><strong>∞</strong><span>любви, которую<br>ты даришь нам</span></div>
+    </section>
+    <section class="card finale" aria-label="Последнее пожелание">
+      <div class="small">самое главное</div>
+      <h2>Мама, будь счастлива.</h2>
+      <p>Я очень рад, что именно ты — моя мама. Спасибо за всё, что ты для меня делаешь. Я люблю тебя сильнее, чем можно написать на одной странице.</p>
+      <button class="btn btn-primary" id="celebrate-again">Ещё немного волшебства ✨</button>
+      <div class="signature">Твой Саша ♥</div>
+    </section>
+    <footer class="footer">Сделано с любовью специально для <b>мамы</b> · от Саши · 2026</footer>
+  </main>
+  <script>
+    const colors=['#ffd48d','#ff9fbe','#ffffff','#c9a5ff','#ffcfb5'];
+    const confetti=document.querySelector('#confetti');
+    function celebrate(){
+      for(let i=0;i<100;i++){
+        const el=document.createElement('i'); el.className='confetto'; el.style.left=Math.random()*100+'vw'; el.style.background=colors[i%colors.length]; el.style.animationDuration=(2.8+Math.random()*2.5)+'s'; el.style.animationDelay=(Math.random()*.55)+'s'; el.style.setProperty('--drift',(Math.random()*260-130)+'px'); el.style.transform='rotate('+Math.random()*360+'deg)'; confetti.appendChild(el); setTimeout(()=>el.remove(),6000);
+      }
+      for(let i=0;i<14;i++){const heart=document.createElement('span');heart.className='heart';heart.textContent=['♥','♡','✦'][i%3];heart.style.left=(Math.random()*90+5)+'vw';heart.style.color=colors[i%colors.length];heart.style.setProperty('--x',(Math.random()*160-80)+'px');heart.style.animationDelay=(Math.random()*.7)+'s';document.body.appendChild(heart);setTimeout(()=>heart.remove(),4300)}
+    }
+    const birth = new Date(1977, 8, 26);
+    function updateAge(){
+      const now = new Date();
+      let years = now.getFullYear() - birth.getFullYear();
+      const birthdayPassed = now.getMonth() > birth.getMonth() || (now.getMonth() === birth.getMonth() && now.getDate() >= birth.getDate());
+      if (!birthdayPassed) years--;
+      const totalSeconds = Math.max(0, Math.floor((now - birth) / 1000));
+      const totalMinutes = Math.floor(totalSeconds / 60); const totalHours = Math.floor(totalSeconds / 3600); const totalDays = Math.floor(totalSeconds / 86400);
+      const totalMonths = years * 12 + now.getMonth() - birth.getMonth() - (now.getDate() < birth.getDate() ? 1 : 0);
+      document.querySelector('#age-years').textContent = years;
+      document.querySelector('#fact-years').textContent = years;
+      document.querySelector('#age-months').textContent = totalMonths;
+      document.querySelector('#age-days').textContent = totalDays;
+      document.querySelector('#age-hours').textContent = totalHours;
+      document.querySelector('#age-minutes').textContent = totalMinutes;
+      document.querySelector('#age-seconds').textContent = totalSeconds;
+    }
+    const messages=['Спасибо, что ты у меня есть.','Ты — мой самый родной человек.','Пусть у тебя будет миллион счастливых дней.','Я всегда рядом, мама.','С любовью, твой Саша.']; let messageIndex=0;
+    setInterval(()=>{const el=document.querySelector('#rotating-message'); el.style.opacity=0; setTimeout(()=>{messageIndex=(messageIndex+1)%messages.length; el.textContent=messages[messageIndex]; el.style.opacity=1},400)},4200);
+    updateAge(); setInterval(updateAge,1000);
+    document.querySelector('#celebrate').addEventListener('click',celebrate);
+    document.querySelector('#celebrate-again').addEventListener('click',celebrate);
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) setTimeout(celebrate,650);
+  </script>
+
+
+</body></html>
